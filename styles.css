@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-top: 16px;
+}
+
+.hero .footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
