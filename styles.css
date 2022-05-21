@@ -11,17 +11,19 @@ header {
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: space-around;
-    padding-top: 16px;
+    justify-content: space-between;
+    padding: 16px 200px 0px;
     background-color: #1F2937;
 }
+
 
 .hero{
     background-color: #1F2937;
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 200px;
 }
 
 .header-subtext {
