@@ -28,7 +28,7 @@ header ul {
 .hero{
     background-color: #1F2937;
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
@@ -61,7 +61,7 @@ header ul {
     background-color: rgb(110,116,124);
     flex: 1;
     width: 100%;
-    height: 30%;
+    height: 80%;
 }
 .hero-button {
     display: flex;
@@ -80,4 +80,59 @@ a {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: normal;
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.info-imgs {
+    display: flex;
+    gap: 10px;
+}
+
+.img1, .img2, .img3, .img4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px #3882f6;
+    border-radius: 8px;
+    border-style: solid;
+    height: 125px;
+    width: 125px;
+    margin: 0;
+}
+  
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+
+}
+
+.call-to-action-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-shrink: 0;
+    padding: 20px;
+    justify-content: center;
+
 }
