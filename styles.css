@@ -38,18 +38,41 @@ header ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
 }
 
 .hero-content h1 {
     font-weight: 900;
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0;
+    width: 70%;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+    width: 65%;
+    padding-bottom: 15px;
 }
 
 .hero-img {
-    background-color: grey;
-    width: 600px;
-    height: 170px;
+    background-color: rgb(110,116,124);
+    flex: 1;
+    width: 100%;
+    height: 30%;
+}
+.hero-button {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    height: 35px;
+    width: 125px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
 
 a {
