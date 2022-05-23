@@ -156,6 +156,10 @@ a {
 .quote-author {
     text-align: end;
     width: 798px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1F2937;
+
 }
 
 .call-to-action-section {
@@ -165,6 +169,40 @@ a {
     align-items: center;
     padding: 60px 200px;
 
+}
+.call-to-action {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    padding: 30px 30px;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.cta-button {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    height: 35px;
+    width: 125px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
 
 footer {
